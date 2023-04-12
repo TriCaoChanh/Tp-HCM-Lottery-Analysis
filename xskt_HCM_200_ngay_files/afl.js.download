@@ -1,0 +1,34 @@
+var afls=[
+["bit.ly/2OBsmTY","60ff7cde5e72577eefde4bbf60e97f7a.gif","Hot sale trong ngay"],
+["bit.ly/3qDRkjM","flash-sale.gif","Sale HOT nhanh trong ngay"],
+["bit.ly/3p2j6pm","optlp.jpg","Optimized Landing Page - Sale kịch sàn"],
+
+["nhacchuongmienphi.com/ca-si/hoai-lam/hoa-no-khong-mau/158735","nhacchuong-hoa-no-khong-mau.gif","nhacchuong-hoa-no-khong-mau"],
+["nhacchuongmienphi.com/ca-si/jack/hoa-hai-duong/164691","nhacchuong-hoa-hai-duong.gif","nhacchuong-hoa-hai-duong"],
+["nhacchuongmienphi.com/ca-si/erik/em-khong-sai-chung-ta-sai/157179","nhacchuong-em-khong-sai-chung-ta-sai.gif","nhacchuong-em-khong-sai-chung-ta-sai"],
+["nhacchuongmienphi.com/ca-si/chi-thanh-danh/co-chac-yeu-la-day/159061","nhacchuong-co-chac-yeu-la-day.gif","nhacchuong-co-chac-yeu-la-day"],
+["nhacchuongmienphi.com/ca-si/hoang-dung/nang-tho/165285","nhacchuong-nang-tho.gif","nhacchuong-nang-tho"],
+
+["nhacchuongmienphi.com/ca-si/dinh-tung-huy-acv/ai-chung-tinh-duoc-mai/165645","ai-vo-tinh-mai.gif","ai-vo-tinh-mai"],
+["loibaihat.me/lyric-loi-bai-hat/dong-thien-duc/ai-chung-tinh-duoc-mai/upaxf","ai-vo-tinh-mai.gif","ai-vo-tinh-mai"],
+["loibaihat.me/lyric-loi-bai-hat/nguyen-phuc-thien/yeu-duong-kho-qua-thi-chay-ve-khoc-voi-anh/5jfdl","chay-ve-khoc-voi-anh.gif","chay-ve-khoc-voi-anh"],
+["nhacchuongmienphi.com/ca-si/phat-ho-huong-ly-x2x/cho-ngay-cuoi-em/167777","cho-ngay-cuoi-em.gif","cho-ngay-cuoi-em"],
+["loibaihat.me/lyric-loi-bai-hat/nam-lee/cho-ngay-cuoi-em/qradn","cho-ngay-cuoi-em.gif","cho-ngay-cuoi-em"],
+["loibaihat.me/lyric-loi-bai-hat/nal/co-don-danh-cho-ai/unipl","co-don-danh-cho-ai.gif","co-don-danh-cho-ai"],
+["nhacchuongmienphi.com/ca-si/hong-thanh-dj-mie/dam-cuoi-nha/166700","dam-cuoi-nha.gif","dam-cuoi-nha"],
+["loibaihat.me/lyric-loi-bai-hat/hong-thanh/dam-cuoi-nha/ga3cr","dam-cuoi-nha.gif","dam-cuoi-nha"],
+["nhacchuongmienphi.com/ca-si/chau-khai-phong-acv/khong-tron-ven-nua/165939","khong-tron-ven-nua.gif","khong-tron-ven-nua"],
+["loibaihat.me/lyric-loi-bai-hat/an-clock/khong-tron-ven-nua/vkbod","khong-tron-ven-nua.gif","khong-tron-ven-nua"],
+["nhacchuongmienphi.com/ca-si/keyo/muon-em-la/166960","muon-em-la.gif","muon-em-la"],
+["loibaihat.me/lyric-loi-bai-hat/keyo/muon-em-la/6erdc","muon-em-la.gif","muon-em-la"],
+["nhacchuongmienphi.com/ca-si/dinh-tung-huy-acv/nguoi-la-thoang-qua/166277","nguoi-la-thoang-qua.gif","nguoi-la-thoang-qua"],
+["loibaihat.me/lyric-loi-bai-hat/chua-co/nguoi-la-thoang-qua/qhrg9","nguoi-la-thoang-qua.gif","nguoi-la-thoang-qua"],
+["nhacchuongmienphi.com/ca-si/duong-ngoc-thai-huong-lan/thuong-em/41343","thuong-em.gif","thuong-em"],
+["loibaihat.me/lyric-loi-bai-hat/y-van/thuong-em/2ekwu","thuong-em.gif","thuong-em"],
+["nhacchuongmienphi.com/ca-si/ung-hoang-phuc-wowy/tron-ven-nghia-tinh/167939","tron-nghia-ven-tinh.gif","tron-nghia-ven-tinh"],
+["loibaihat.me/lyric-loi-bai-hat/dinh-tung-huy/tron-ven-nghia-tinh/lqhcd","tron-nghia-ven-tinh.gif","tron-nghia-ven-tinh"]
+];
+function makeRandomBanner(){
+var a=afls[Math.floor(Math.random()*afls.length)];
+return '<a href="https://'+a[0]+'" target="_blank"><img src="//s.tainhaccho.vn/images/hmtbn/'+a[1]+'" width="336" height="280" alt="'+a[2]+'" title="'+a[2]+'" border="0" /></a>';
+}
